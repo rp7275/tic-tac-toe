@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>TicTacToe</title>
+<script type="text/javascript" src="tictac.js"></script>
+<link rel="stylesheet" type="text/css" href="tictac.css">
+<body id="background">
+	<fieldset align="center">
+		<legend align="center">Tic-Tac-Toe</legend>
+			<table align="center" id="name">
+				<tr>
+					<td id="td" align="right">Player 1 : </td>
+					<td id="td"><input type="text" id="player1"></td>
+				</tr>
+				<tr>
+					<td id="td" align="right">Player 2 : </td>
+					<td id="td"><input type="text" id="player2"></td>
+				</tr>
+				<tr>
+					<td colspan="2" id="td"><input type="button" id="td1" value="Start" onclick="start('player1','player2')"></td>
+				</tr>
+			</table>
+	</fieldset>
+	<br>
+	<br>
+<form method="get" action="tictac.html">
+	<input type="text" id="xyz">
+</form>
+	
+<table align="center" id="table">
+	<tr>
+		<td colspan="3" align="center" id="head">let's Play Tic-Tac-Toe...</td>
+	</tr>
+	<tr>
+		<td><input type="button" id="b1" onclick="clickbtn('b1')"></td>
+		<td><input type="button" id="b2" onclick="clickbtn('b2')"></td>
+		<td><input type="button" id="b3" onclick="clickbtn('b3')"></td>
+	</tr>
+	<tr>
+		<td><input type="button" id="b4" onclick="clickbtn('b4')"></td>
+		<td><input type="button" id="b5" onclick="clickbtn('b5')"></td>
+		<td><input type="button" id="b6" onclick="clickbtn('b6')"></td>
+	</tr>
+	<tr>
+		<td><input type="button" id="b7" onclick="clickbtn('b7')"></td>
+		<td><input type="button" id="b8" onclick="clickbtn('b8')"></td>
+		<td><input type="button" id="b9" onclick="clickbtn('b9')"></td>
+	</tr>
+</table>
+<br><br>
+<br>
+<br>
+<fieldset align="center">
+	<legend align="center">Points Table</legend>
+	<table align="center">
+	<tr>
+		<td id="td" align="right">Player 1 : </td>
+		<td id="td"><input type="text" id="pl1"></td>
+	</tr>
+	<tr>
+		<td id="td" align="right">Player 2 : </td>
+		<td id="td"><input type="text" id="pl2"></td>
+	</tr>
+	<tr>
+		<td id="td" align="right">Draw :</td>
+		<td id="td"><input type="text" id="draw"></td>
+	</tr>
+</table>
+</fieldset>
+</body>
+</html>
